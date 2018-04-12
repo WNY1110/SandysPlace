@@ -10,7 +10,6 @@ pipeline {
       agent {
         docker {
           image 'maven:alpine'
-          args 'mvn -v'
         }
         
       }
